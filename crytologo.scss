@@ -1,0 +1,46 @@
+
+.cryto-logo {
+  width: 15px;
+  height: 15px;
+}
+
+.cryto-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: $neutral-white;
+  border-radius: 50%;
+  border: 1px solid #d6d9dc;
+}
+
+.cryto-logo-bg-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: $neutral-white;
+  border-radius: 50%;
+  border: 1px solid #3bddf6;
+}
+
+
+.cryto-logo-bg-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #17f4f9;
+  border-radius: 50%;
+  border: 1px solid #3bddf6;
+}
+
+/* Parent element container */
+#body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
